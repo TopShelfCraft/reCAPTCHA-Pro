@@ -1,0 +1,40 @@
+{
+	"name": "topshelfcraft/recaptcha-pro",
+	"description": "An ultra-flexible, super-simple reCAPTCHA integration with Craft CMS and Craft plugins.",
+	"type": "craft-plugin",
+	"version": "3.0.0",
+	"keywords": [
+		"craft",
+		"cms",
+		"craftcms",
+		"craft-plugin",
+		"recaptcha"
+	],
+	"support": {
+		"docs": "https://github.com/TopShelfCraft/reCAPTCHA-Pro",
+		"issues": "https://github.com/TopShelfCraft/reCAPTCHA-Pro/issues"
+	},
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Michael Rog",
+			"homepage": "https://topshelfcraft.com"
+		}
+	],
+	"require": {
+		"craftcms/cms": "^3.3",
+		"google/recaptcha": "^1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"topshelfcraft\\recaptchapro\\": "src/"
+		}
+	},
+	"extra": {
+		"name": "reCAPTCHA PRo",
+		"handle": "recaptcha-pro",
+		"schemaVersion": "0.0.0.0",
+		"changelogUrl": "https://raw.githubusercontent.com/topshelfcraft/recaptcha-pro/master/CHANGELOG.md",
+		"class": "topshelfcraft\\recaptchapro\\RecaptchaPro"
+	}
+}
